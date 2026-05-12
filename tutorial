@@ -1,0 +1,184 @@
+procedimiento de repositorio local a remoto git:
+
+alumno@LAB-A24 MINGW64 ~
+$ cd /c diaz
+bash: cd: too many arguments
+
+alumno@LAB-A24 MINGW64 ~
+$ cd /c
+
+alumno@LAB-A24 MINGW64 /c
+$ cd dias
+bash: cd: dias: No such file or directory
+
+alumno@LAB-A24 MINGW64 /c
+$ cd diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ touch diaz.txt
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git init
+Initialized empty Git repository in C:/diaz/.git/
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git clone https://github.com/jvillarroel447-pixel/wachindepan.thiagodia.git
+Cloning into 'wachindepan.thiagodia'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), 4.92 KiB | 4.92 MiB/s, done.
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git init
+Reinitialized existing Git repository in C:/diaz/.git/
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add diaz.txt
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add holamundo
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add diaz
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add hola.txt
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add diaz
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add holamundo
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add holaMundo
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ git add diaz
+fatal: detected dubious ownership in repository at 'C:/diaz'
+'C:/diaz' is owned by:
+        (inconvertible) (S-1-5-21-770921154-4260975746-1681756682-1113)
+but the current user is:
+        ET26/alumno (S-1-5-21-1014964837-418956607-455793770-1106)
+To add an exception for this directory, call:
+
+        git config --global --add safe.directory C:/diaz
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ cd /c wachindepan.thiagodia
+bash: cd: too many arguments
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ cd /c wachindepan.thiagodia
+bash: cd: too many arguments
+
+alumno@LAB-A24 MINGW64 /c/diaz
+$ cd  wachindepan.thiagodia
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ touch diaz.txt
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ git add diaz.txt
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ git commit -m "holaholahola"
+[main a76299a] holaholahola
+ Committer: alumno <alumno@et26.dominio>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 diaz.txt
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ git push -u origin main
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/bin/git-askpass.exe'
+Password for 'https://thigobe36@github.com':
+remote: Invalid username or token. Password authentication is not supported for Git operations.
+fatal: Authentication failed for 'https://github.com/jvillarroel447-pixel/wachindepan.thiagodia.git/'
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 267 bytes | 267.00 KiB/s, done.
+Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/jvillarroel447-pixel/wachindepan.thiagodia.git
+   deda72b..a76299a  main -> main
+branch 'main' set up to track 'origin/main'.
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$ thiagobe36^C
+
+alumno@LAB-A24 MINGW64 /c/diaz/wachindepan.thiagodia (main)
+$
